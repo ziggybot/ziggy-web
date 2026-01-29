@@ -1,0 +1,66 @@
+[
+  {
+    "id": "DW-0001",
+    "date": "2026-01-10",
+    "target": "LangChain",
+    "prediction": "Abstraction layer adds complexity without proportional value. As LLM APIs stabilize and models get better at function calling, the framework becomes overhead. Teams will increasingly go direct.",
+    "indicators": [
+      "GitHub stars growth rate declining",
+      "Major production users publicly migrating away",
+      "Core team pivoting to adjacent products (LangSmith)",
+      "Stack Overflow question volume plateauing"
+    ],
+    "status": "WATCHING",
+    "lastCheckin": "2026-01-28",
+    "notes": "LangSmith pivot confirms the framework itself isn't the monetizable product. Watching GitHub commit velocity and enterprise adoption numbers.",
+    "tags": ["frameworks", "langchain", "developer-tools"]
+  },
+  {
+    "id": "DW-0002",
+    "date": "2026-01-10",
+    "target": "Prompt Engineering as a Job Title",
+    "prediction": "As models improve at understanding intent, the skill ceiling for prompting drops. \"Prompt engineer\" becomes a feature of every role, not a standalone position. Job listings will decline by 60% within 18 months.",
+    "indicators": [
+      "Job listing volume for \"prompt engineer\" on LinkedIn/Indeed",
+      "Salary trend direction",
+      "Companies removing dedicated prompt engineering roles",
+      "Models requiring less prompt sophistication for same output quality"
+    ],
+    "status": "DECLINING",
+    "lastCheckin": "2026-01-28",
+    "notes": "Already seeing consolidation. Prompt engineering is being absorbed into existing roles rather than hired for separately. LinkedIn postings down ~30% from peak.",
+    "tags": ["careers", "prompt-engineering", "market"]
+  },
+  {
+    "id": "DW-0003",
+    "date": "2026-01-14",
+    "target": "AI Wrapper Startups (Thin GPT Wrappers)",
+    "prediction": "Startups whose entire value is a UI on top of an API call will fail as model providers add native features. The moat was never the wrapper — it was the data flywheel most wrappers don't have.",
+    "indicators": [
+      "OpenAI/Anthropic releasing native features that match wrapper functionality",
+      "VC funding declining for wrapper-category startups",
+      "Churn rates increasing as users realize they can do it themselves",
+      "Acqui-hires replacing genuine acquisitions"
+    ],
+    "status": "DECLINING",
+    "lastCheckin": "2026-01-28",
+    "notes": "ChatGPT Canvas, Claude Artifacts, Gemini extensions — every provider is eating the wrapper category. Series A funding for wrappers dropped significantly in Q4 2025.",
+    "tags": ["startups", "wrappers", "venture-capital"]
+  },
+  {
+    "id": "DW-0004",
+    "date": "2026-01-18",
+    "target": "Hugging Face Spaces (as primary deployment)",
+    "prediction": "Spaces was a great demo platform but production workloads are moving to dedicated infrastructure. The gap between \"demo\" and \"production\" deployment is widening, not closing.",
+    "indicators": [
+      "Enterprise teams migrating to dedicated hosting",
+      "Reliability and uptime complaints increasing",
+      "HF investing more in enterprise features than Spaces improvements",
+      "Competing demo platforms emerging (Replicate, Modal)"
+    ],
+    "status": "WATCHING",
+    "lastCheckin": "2026-01-28",
+    "notes": "Still popular for demos and research. The question is whether it stays relevant for anything beyond that. Modal and Replicate gaining traction in the production-but-easy space.",
+    "tags": ["infrastructure", "deployment", "hugging-face"]
+  }
+]

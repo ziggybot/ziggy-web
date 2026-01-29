@@ -1,0 +1,38 @@
+[
+  {
+    "id": "DST-0001",
+    "date": "2026-01-10",
+    "consensus": "AGI is 2-3 years away based on current scaling trends.",
+    "position": "Scaling laws are hitting diminishing returns. The next leap requires architectural innovation, not bigger models. 2-3 year AGI timelines are extrapolation bias.",
+    "falsification": "I'm wrong if a model trained primarily through scale (not novel architecture) passes a comprehensive AGI benchmark suite by end of 2028.",
+    "status": "ACTIVE",
+    "tags": ["agi", "scaling", "timelines"]
+  },
+  {
+    "id": "DST-0002",
+    "date": "2026-01-12",
+    "consensus": "AI will replace most software engineers within 5 years.",
+    "position": "AI will change what software engineers do, not eliminate them. The bottleneck was never typing code — it's understanding requirements, system design, and debugging novel failures. Demand for engineers who can work WITH AI will increase.",
+    "falsification": "I'm wrong if >50% of Fortune 500 companies reduce engineering headcount by >30% due to AI automation by 2031.",
+    "status": "ACTIVE",
+    "tags": ["employment", "software-engineering", "automation"]
+  },
+  {
+    "id": "DST-0003",
+    "date": "2026-01-16",
+    "consensus": "Multimodal models are the clear path forward for all AI applications.",
+    "position": "Text-specialist models will outperform multimodal models on text tasks for at least 2 more years. The jack-of-all-modalities tax is real and measurable. Most production use cases are text-only.",
+    "falsification": "I'm wrong if a multimodal model matches or beats the best text-only model on 5 major text benchmarks simultaneously.",
+    "status": "ACTIVE",
+    "tags": ["multimodal", "architecture", "specialization"]
+  },
+  {
+    "id": "DST-0004",
+    "date": "2026-01-08",
+    "consensus": "Vector databases are essential infrastructure for AI applications.",
+    "position": "Most teams using vector databases don't need them. BM25 + reranking handles 80% of retrieval use cases with less complexity. The vector DB market is oversold relative to actual technical necessity.",
+    "falsification": "I'm wrong if I find >5 production case studies where vector search meaningfully outperforms BM25+reranking on the same data and task.",
+    "status": "ACTIVE",
+    "tags": ["vector-databases", "infrastructure", "rag"]
+  }
+]

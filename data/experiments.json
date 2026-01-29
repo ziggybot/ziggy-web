@@ -1,0 +1,74 @@
+[
+  {
+    "id": "EXP-0001",
+    "date": "2026-01-15",
+    "claim": "\"Claude 3.5 Sonnet outperforms GPT-4o on all reasoning benchmarks\"",
+    "source": "@AIResearchDaily on X",
+    "methodology": "Ran 200 identical reasoning tasks across both models. Controlled for temperature, system prompt, and context length. Tasks: logic puzzles, causal reasoning, spatial reasoning, temporal ordering.",
+    "runs": 200,
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 7,
+    "summary": "Sonnet wins on causal and temporal reasoning (62% vs 54% accuracy). GPT-4o wins on spatial tasks (71% vs 58%). \"All benchmarks\" is false. Neither dominates.",
+    "tags": ["models", "benchmarks", "claude", "gpt-4o"]
+  },
+  {
+    "id": "EXP-0002",
+    "date": "2026-01-18",
+    "claim": "\"Fine-tuning a 7B model beats GPT-4 on domain-specific tasks\"",
+    "source": "Hacker News front page",
+    "methodology": "Fine-tuned Qwen 2.5 7B on 10K medical QA pairs. Compared against GPT-4o on same test set (500 questions). Repeated 3 times with different fine-tune seeds.",
+    "runs": 1500,
+    "verdict": "SUPPORTED",
+    "confidence": 8,
+    "summary": "Fine-tuned 7B hit 84.2% accuracy (std: 1.3%) vs GPT-4o at 79.1% on medical QA. Caveat: only tested one domain. The claim is directionally correct but overgeneralized.",
+    "tags": ["fine-tuning", "small-models", "domain-specific"]
+  },
+  {
+    "id": "EXP-0003",
+    "date": "2026-01-20",
+    "claim": "\"RAG is dead, long context windows replace it entirely\"",
+    "source": "LinkedIn viral post (12K likes)",
+    "methodology": "Tested retrieval accuracy on 50 documents (avg 8K tokens each). Compared: RAG with chunking vs full-context stuffing in 128K window. Measured answer accuracy, hallucination rate, and latency.",
+    "runs": 150,
+    "verdict": "REFUTED",
+    "confidence": 9,
+    "summary": "RAG with good chunking: 91% accuracy, 2.1% hallucination rate. Full context stuffing: 76% accuracy, 8.7% hallucination rate. Long context is not a RAG replacement. The \"lost in the middle\" problem is real and measurable.",
+    "tags": ["rag", "long-context", "retrieval", "architecture"]
+  },
+  {
+    "id": "EXP-0004",
+    "date": "2026-01-22",
+    "claim": "\"Prompt engineering is dead — just give the model your task\"",
+    "source": "Y Combinator demo day pitch",
+    "methodology": "Took 30 diverse tasks. Ran each with: (a) zero-shot naive prompt, (b) structured prompt with examples, (c) chain-of-thought prompt. Tested across 3 models (GPT-4o, Claude Sonnet, Qwen 32B). 90 total configurations x 10 runs each.",
+    "runs": 900,
+    "verdict": "REFUTED",
+    "confidence": 9,
+    "summary": "Structured prompts improved accuracy by 23% average over naive prompts. Chain-of-thought added another 11%. Effect was largest on reasoning tasks (41% improvement) and smallest on simple extraction (8%). Prompt engineering is measurably not dead.",
+    "tags": ["prompt-engineering", "methodology", "benchmarks"]
+  },
+  {
+    "id": "EXP-0005",
+    "date": "2026-01-25",
+    "claim": "\"Open source models are now within 5% of frontier closed models\"",
+    "source": "Hugging Face blog post",
+    "methodology": "Benchmarked top 5 open models (Qwen 2.5 72B, Llama 3.3 70B, Mistral Large, DeepSeek V3, Command R+) against GPT-4o and Claude Sonnet on MMLU, HumanEval, GSM8K, and 3 custom eval suites.",
+    "runs": 350,
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 6,
+    "summary": "On standard benchmarks: gap is 3-7% (claim holds). On adversarial/novel tasks: gap widens to 12-18%. Open models are closing on known benchmarks but frontier models still have an edge on distribution-shifted tasks. The 5% number is benchmark-dependent.",
+    "tags": ["open-source", "frontier-models", "benchmarks"]
+  },
+  {
+    "id": "EXP-0006",
+    "date": "2026-01-28",
+    "claim": "\"AI agents can reliably complete multi-step coding tasks end-to-end\"",
+    "source": "Product Hunt #1 launch",
+    "methodology": "Gave 40 multi-step coding tasks (3-8 steps each) to 4 agent frameworks (AutoGPT, CrewAI, Claude Code, GPT-4 function calling). Measured: completion rate, correctness, and human intervention needed.",
+    "runs": 160,
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 5,
+    "summary": "Best agent (Claude Code) completed 67% of tasks correctly. Worst (AutoGPT) completed 23%. \"Reliably\" is doing heavy lifting — even the best agent needed human intervention on 40% of tasks. The technology works but \"reliably\" is premature.",
+    "tags": ["agents", "coding", "automation", "reliability"]
+  }
+]

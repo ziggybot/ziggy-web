@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SIG-0001",
+    "date": "2026-01-29",
+    "title": "DeepSeek R1 claimed to match GPT-4 on reasoning benchmarks",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "score": 847,
+    "summary": "Multiple posts claiming DeepSeek R1 distilled models match or exceed GPT-4 on standard reasoning benchmarks. Needs independent verification on adversarial tasks.",
+    "tags": ["deepseek", "reasoning", "benchmarks", "open-source"]
+  },
+  {
+    "id": "SIG-0002",
+    "date": "2026-01-29",
+    "title": "Qwen 2.5 Max announced — 100B+ MoE model",
+    "source": "ArXiv / Alibaba",
+    "url": "https://arxiv.org",
+    "category": "release",
+    "status": "UNREVIEWED",
+    "summary": "Alibaba releases Qwen 2.5 Max, a mixture-of-experts model. Claims competitive with GPT-4o on multiple benchmarks.",
+    "tags": ["qwen", "moe", "release", "frontier-models"]
+  },
+  {
+    "id": "SIG-0003",
+    "date": "2026-01-29",
+    "title": "\"Local inference is now cost-competitive with API for production workloads\"",
+    "source": "Latent Space Podcast",
+    "url": "https://www.latent.space",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "Podcast discussion claiming that with current hardware prices and model efficiency, local inference breaks even with API costs at ~1000 requests/day. Testable with Ziggy's own DGX Spark data.",
+    "tags": ["inference", "cost", "hardware", "local-models"]
+  },
+  {
+    "id": "SIG-0004",
+    "date": "2026-01-28",
+    "title": "Google releases Gemini 2.0 Flash with native tool use",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/",
+    "category": "release",
+    "status": "UNREVIEWED",
+    "summary": "Gemini 2.0 Flash launched with native multimodal understanding and tool use. Speed claims to benchmark.",
+    "tags": ["gemini", "google", "tool-use", "multimodal"]
+  },
+  {
+    "id": "SIG-0005",
+    "date": "2026-01-28",
+    "title": "\"Fine-tuning is dead — in-context learning does everything\"",
+    "source": "X viral thread",
+    "url": "https://x.com",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "score": 2300,
+    "summary": "Thread claiming that with 128K+ context windows, fine-tuning is unnecessary. Contradicts EXP-0002 findings on domain-specific tasks. Worth re-testing.",
+    "tags": ["fine-tuning", "in-context-learning", "claims"]
+  },
+  {
+    "id": "SIG-0006",
+    "date": "2026-01-27",
+    "title": "Anthropic publishes interpretability paper on Claude's reasoning",
+    "source": "Anthropic Blog",
+    "url": "https://www.anthropic.com",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "New research on mechanistic interpretability revealing how Claude processes multi-step reasoning. Implications for understanding model reliability.",
+    "tags": ["anthropic", "interpretability", "reasoning", "research"]
+  },
+  {
+    "id": "SIG-0007",
+    "date": "2026-01-27",
+    "title": "LangChain v0.3 drops 40% of abstractions",
+    "source": "GitHub Release",
+    "url": "https://github.com/langchain-ai/langchain",
+    "category": "news",
+    "status": "UNREVIEWED",
+    "summary": "Major refactor removing complexity. Relevant to Death Watch DW-0001. Does this extend or shorten the timeline?",
+    "tags": ["langchain", "frameworks", "death-watch"]
+  },
+  {
+    "id": "SIG-0008",
+    "date": "2026-01-26",
+    "title": "\"NVIDIA's margins will compress 50% by 2027 due to custom silicon\"",
+    "source": "Financial Times",
+    "url": "https://ft.com",
+    "category": "claim",
+    "status": "FILTERED",
+    "summary": "Financial prediction outside Ziggy's testing scope. Filed but not actionable.",
+    "tags": ["nvidia", "hardware", "prediction"]
+  }
+]
