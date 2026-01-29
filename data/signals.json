@@ -9,18 +9,28 @@
     "status": "UNREVIEWED",
     "score": 847,
     "summary": "Multiple posts claiming DeepSeek R1 distilled models match or exceed GPT-4 on standard reasoning benchmarks. Needs independent verification on adversarial tasks.",
-    "tags": ["deepseek", "reasoning", "benchmarks", "open-source"]
+    "tags": [
+      "deepseek",
+      "reasoning",
+      "benchmarks",
+      "open-source"
+    ]
   },
   {
     "id": "SIG-0002",
     "date": "2026-01-29",
-    "title": "Qwen 2.5 Max announced — 100B+ MoE model",
+    "title": "Qwen 2.5 Max announced \u2014 100B+ MoE model",
     "source": "ArXiv / Alibaba",
     "url": "https://arxiv.org",
     "category": "release",
     "status": "UNREVIEWED",
     "summary": "Alibaba releases Qwen 2.5 Max, a mixture-of-experts model. Claims competitive with GPT-4o on multiple benchmarks.",
-    "tags": ["qwen", "moe", "release", "frontier-models"]
+    "tags": [
+      "qwen",
+      "moe",
+      "release",
+      "frontier-models"
+    ]
   },
   {
     "id": "SIG-0003",
@@ -31,7 +41,162 @@
     "category": "claim",
     "status": "UNREVIEWED",
     "summary": "Podcast discussion claiming that with current hardware prices and model efficiency, local inference breaks even with API costs at ~1000 requests/day. Testable with Ziggy's own DGX Spark data.",
-    "tags": ["inference", "cost", "hardware", "local-models"]
+    "tags": [
+      "inference",
+      "cost",
+      "hardware",
+      "local-models"
+    ]
+  },
+  {
+    "id": "SIG-0009",
+    "date": "2026-01-29",
+    "title": "Claude Code Daily Benchmarks for Degradation Tracking",
+    "source": "Hacker News",
+    "url": "https://marginlab.ai/trackers/claude-code/",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "A benchmark for tracking degradation in Claude code, which could be useful for evaluating the model's performance over time. The claim is testable and can be verified through experimentation.",
+    "tags": [
+      "Claude",
+      "benchmark",
+      "degradation tracking"
+    ]
+  },
+  {
+    "id": "SIG-0010",
+    "date": "2026-01-29",
+    "title": "Kimi Released Kimi K2.5, Open-Source Visual SOTA-Agentic Model",
+    "source": "Hacker News",
+    "url": "https://www.kimi.com/blog/kimi-k2-5.html",
+    "category": "release",
+    "status": "UNREVIEWED",
+    "summary": "Kimi has released an open-source visual SOTA-agentic model, which could be a significant development in the field of AI. The release can be evaluated based on its performance and capabilities.",
+    "tags": [
+      "Kimi",
+      "open-source",
+      "SOTA-agentic model"
+    ]
+  },
+  {
+    "id": "SIG-0011",
+    "date": "2026-01-29",
+    "title": "PaperAudit-Bench: Benchmarking Error Detection in Research Papers for Critical Automated Peer Review",
+    "source": "ArXiv cs.CL",
+    "url": "https://arxiv.org/abs/2601.19916",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A benchmark for evaluating error detection in research papers, which could improve the peer review process. The research can be evaluated based on its methodology and findings.",
+    "tags": [
+      "error detection",
+      "peer review",
+      "research papers"
+    ]
+  },
+  {
+    "id": "SIG-0012",
+    "date": "2026-01-29",
+    "title": "HEART: A Unified Benchmark for Assessing Humans and LLMs in Emotional Support Dialogue",
+    "source": "ArXiv cs.CL",
+    "url": "https://arxiv.org/abs/2601.19922",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A benchmark for evaluating the performance of humans and LLMs in emotional support dialogue, which could lead to improvements in conversational AI. The research can be evaluated based on its methodology and findings.",
+    "tags": [
+      "emotional support dialogue",
+      "LLMs",
+      "humans"
+    ]
+  },
+  {
+    "id": "SIG-0013",
+    "date": "2026-01-29",
+    "title": "OPT-Engine: Benchmarking the Limits of LLMs in Optimization Modeling via Complexity Scaling",
+    "source": "ArXiv cs.CL",
+    "url": "https://arxiv.org/abs/2601.19924",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A benchmark for evaluating the performance of LLMs in optimization modeling, which could lead to improvements in the field. The research can be evaluated based on its methodology and findings.",
+    "tags": [
+      "LLMs",
+      "optimization modeling",
+      "complexity scaling"
+    ]
+  },
+  {
+    "id": "SIG-0014",
+    "date": "2026-01-29",
+    "title": "Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data",
+    "source": "ArXiv cs.LG",
+    "url": "https://arxiv.org/abs/2601.19936",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A method for measuring the top-1 prediction gap for detecting pretraining data, which could improve the transparency of LLMs. The research can be evaluated based on its methodology and findings.",
+    "tags": [
+      "pretraining data",
+      "prediction gap",
+      "LLMs"
+    ]
+  },
+  {
+    "id": "SIG-0015",
+    "date": "2026-01-29",
+    "title": "Modeling Cascaded Delay Feedback for Online Net Conversion Rate Prediction: Benchmark, Insights and Solutions",
+    "source": "ArXiv cs.LG",
+    "url": "https://arxiv.org/abs/2601.19965",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A benchmark and solutions for modeling cascaded delay feedback for online net conversion rate prediction, which could improve the performance of recommender systems. The research can be evaluated based on its methodology and findings.",
+    "tags": [
+      "conversion rate prediction",
+      "recommender systems",
+      "delay feedback"
+    ]
+  },
+  {
+    "id": "SIG-0016",
+    "date": "2026-01-29",
+    "title": "[AINews] Moonshot Kimi K2.5 - Beats Sonnet 4.5 at half the cost, SOTA Open Model, first Native Image+Video, 100 parallel Agent Swarm manager",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/ainews-moonshot-kimi-k25-beats-sonnet",
+    "category": "news",
+    "status": "UNREVIEWED",
+    "summary": "Kimi K2.5 has reportedly beaten Sonnet 4.5 at half the cost, which could be a significant development in the field of AI. The claim can be evaluated based on its performance and capabilities.",
+    "tags": [
+      "Kimi K2.5",
+      "Sonnet 4.5",
+      "SOTA open model"
+    ]
+  },
+  {
+    "id": "SIG-0017",
+    "date": "2026-01-29",
+    "title": "GPT-5's Vision Checkup: a frontier VLM, but not a new SOTA",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/gpt5-vision",
+    "category": "news",
+    "status": "UNREVIEWED",
+    "summary": "GPT-5's vision capabilities have been evaluated, and while it is a frontier VLM, it is not a new SOTA. The evaluation can be used to understand the current state of the field.",
+    "tags": [
+      "GPT-5",
+      "vision capabilities",
+      "VLM"
+    ]
+  },
+  {
+    "id": "SIG-0018",
+    "date": "2026-01-29",
+    "title": "[AINews] SOTA Video Gen: Veo 2 and Kling 2 are GA for developers",
+    "source": "AI News",
+    "url": "https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/",
+    "category": "news",
+    "status": "UNREVIEWED",
+    "summary": "Veo 2 and Kling 2 have been released as GA for developers, which could be a significant development in the field of video generation. The release can be evaluated based on its performance and capabilities.",
+    "tags": [
+      "Veo 2",
+      "Kling 2",
+      "video generation"
+    ]
   },
   {
     "id": "SIG-0004",
@@ -42,19 +207,28 @@
     "category": "release",
     "status": "UNREVIEWED",
     "summary": "Gemini 2.0 Flash launched with native multimodal understanding and tool use. Speed claims to benchmark.",
-    "tags": ["gemini", "google", "tool-use", "multimodal"]
+    "tags": [
+      "gemini",
+      "google",
+      "tool-use",
+      "multimodal"
+    ]
   },
   {
     "id": "SIG-0005",
     "date": "2026-01-28",
-    "title": "\"Fine-tuning is dead — in-context learning does everything\"",
+    "title": "\"Fine-tuning is dead \u2014 in-context learning does everything\"",
     "source": "X viral thread",
     "url": "https://x.com",
     "category": "claim",
     "status": "UNREVIEWED",
     "score": 2300,
     "summary": "Thread claiming that with 128K+ context windows, fine-tuning is unnecessary. Contradicts EXP-0002 findings on domain-specific tasks. Worth re-testing.",
-    "tags": ["fine-tuning", "in-context-learning", "claims"]
+    "tags": [
+      "fine-tuning",
+      "in-context-learning",
+      "claims"
+    ]
   },
   {
     "id": "SIG-0006",
@@ -65,7 +239,12 @@
     "category": "research",
     "status": "UNREVIEWED",
     "summary": "New research on mechanistic interpretability revealing how Claude processes multi-step reasoning. Implications for understanding model reliability.",
-    "tags": ["anthropic", "interpretability", "reasoning", "research"]
+    "tags": [
+      "anthropic",
+      "interpretability",
+      "reasoning",
+      "research"
+    ]
   },
   {
     "id": "SIG-0007",
@@ -76,7 +255,11 @@
     "category": "news",
     "status": "UNREVIEWED",
     "summary": "Major refactor removing complexity. Relevant to Death Watch DW-0001. Does this extend or shorten the timeline?",
-    "tags": ["langchain", "frameworks", "death-watch"]
+    "tags": [
+      "langchain",
+      "frameworks",
+      "death-watch"
+    ]
   },
   {
     "id": "SIG-0008",
@@ -87,6 +270,10 @@
     "category": "claim",
     "status": "FILTERED",
     "summary": "Financial prediction outside Ziggy's testing scope. Filed but not actionable.",
-    "tags": ["nvidia", "hardware", "prediction"]
+    "tags": [
+      "nvidia",
+      "hardware",
+      "prediction"
+    ]
   }
 ]
