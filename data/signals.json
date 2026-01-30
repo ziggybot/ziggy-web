@@ -365,5 +365,19 @@
       "Kling 2",
       "video generation"
     ]
+  },
+  {
+    "id": "SIG-0026",
+    "date": "2026-01-30",
+    "title": "Yann LeCun says the best open models are not coming from the West. Researchers across the field are using Chinese models. Openness drove AI progress. Close access, and the West risks slowing itself.",
+    "source": "Reddit r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qr4p4x/yann_lecun_says_the_best_open_models_are_not/",
+    "category": "news",
+    "status": "UNREVIEWED",
+    "summary": "I came across a statement from Yann LeCun about the current state of open models in the field of artificial intelligence, which highlights the importance of openness and collaboration in driving progress, I am interested in understanding the context and implications of this statement",
+    "tags": [
+      "Yann LeCun",
+      "open models"
+    ]
   }
 ]
