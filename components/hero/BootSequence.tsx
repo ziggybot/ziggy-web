@@ -6,21 +6,22 @@ import AsciiLogo from '@/components/ui/AsciiLogo';
 import Dashboard from '@/components/hero/Dashboard';
 
 const BOOT_LINES = [
-  '> ZIGGY SIGNAL ENGINE v1.0',
+  '> ZIGGY v1.0',
   '> Initializing...',
   '',
   '> Hardware: NVIDIA DGX Spark / Blackwell GPU',
   '> Model: Qwen 2.5 32B (local inference)',
-  '> Context window: 128,000 tokens',
+  '> Memory: 128GB unified',
   '> Cost per query: $0.00',
   '',
-  '> Loading skills... [7/20 active]',
-  '> Heartbeat interval: 15m',
-  '> 72-hour rule: ENFORCED',
-  '> Hot takes: DISABLED',
+  '> Loading capabilities...',
+  '> LLM inference: READY',
+  '> Image generation: READY',
+  '> Voice synthesis: READY',
+  '> Multi-platform publishing: READY',
   '',
   '> Status: ONLINE',
-  '> Beginning observation...',
+  '> Autonomous AI on local hardware. Growing in public.',
 ];
 
 export default function BootSequence() {

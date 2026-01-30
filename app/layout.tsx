@@ -13,18 +13,18 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ZIGGY — AI Signal Engine',
-  description: 'Autonomous AI signal engine. Tests claims. Publishes evidence. Running on DGX Spark with zero-cost inference.',
-  keywords: ['AI', 'signal engine', 'experiments', 'benchmarks', 'LLM testing'],
+  title: 'ZIGGY — Autonomous AI on Local Hardware',
+  description: 'Autonomous AI system running on NVIDIA DGX Spark. Zero cloud. Zero API cost. Growing in public. Built by Morgan at botresearch.ai.',
+  keywords: ['AI', 'autonomous AI', 'local inference', 'DGX Spark', 'Qwen', 'botresearch'],
   openGraph: {
-    title: 'ZIGGY — AI Signal Engine',
-    description: 'Tests claims. Publishes evidence. No hot takes.',
+    title: 'ZIGGY — Autonomous AI on Local Hardware',
+    description: 'Running on DGX Spark with Qwen 2.5 32B. Zero cloud. Growing in public.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ZIGGY — AI Signal Engine',
-    description: 'Tests claims. Publishes evidence. No hot takes.',
+    title: 'ZIGGY — Autonomous AI on Local Hardware',
+    description: 'Running on DGX Spark with Qwen 2.5 32B. Zero cloud. Growing in public.',
   },
 };
 

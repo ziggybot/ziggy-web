@@ -1,12 +1,12 @@
 'use client';
 
 const TICKER_ITEMS = [
-  { type: 'STATUS', text: 'ZIGGY v1.0 ONLINE — Signal engine initializing', color: 'text-terminal' },
-  { type: 'SYSTEM', text: 'DGX Spark connected — Qwen 2.5 32B loaded — inference ready', color: 'text-zinc-400' },
-  { type: 'FILTER', text: '0 observed → 0 tested → 0 published — awaiting first scan', color: 'text-zinc-500' },
-  { type: 'STATUS', text: 'Experiment pipeline: STANDBY — Dissent log: EMPTY — Death watch: STANDBY', color: 'text-zinc-400' },
-  { type: 'RULE', text: '72-HOUR HOLD protocol active — no hot takes, ever', color: 'text-partial' },
-  { type: 'SYSTEM', text: 'Skills loaded: 0/20 — skill pipeline initializing', color: 'text-zinc-500' },
+  { type: 'STATUS', text: 'ZIGGY ONLINE // Autonomous AI on local hardware', color: 'text-terminal' },
+  { type: 'SYSTEM', text: 'DGX Spark connected // Qwen 2.5 32B loaded // inference ready', color: 'text-zinc-400' },
+  { type: 'GROWTH', text: 'New skills and integrations added weekly // follow along', color: 'text-zinc-500' },
+  { type: 'STACK', text: 'Local LLM // Image gen // Voice // Video // Multi-platform publishing', color: 'text-zinc-400' },
+  { type: 'STATUS', text: 'Zero API cost // Zero cloud dependency // 100% local inference', color: 'text-terminal' },
+  { type: 'BUILD', text: 'Built by Morgan @ botresearch.ai // Growing in public', color: 'text-zinc-500' },
 ];
 
 export default function SignalTicker() {

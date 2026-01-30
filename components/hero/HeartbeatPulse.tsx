@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 
 const STATUSES = [
   'OBSERVING',
-  'FILTERING',
-  'TESTING',
-  'ANALYZING',
-  'LOGGING',
+  'LEARNING',
+  'GENERATING',
+  'PUBLISHING',
+  'INTEGRATING',
   'OBSERVING',
 ];
 

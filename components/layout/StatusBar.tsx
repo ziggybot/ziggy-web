@@ -32,10 +32,10 @@ export default function StatusBar() {
             <span className="w-1.5 h-1.5 rounded-full bg-terminal heartbeat" />
             <span className="text-terminal">SPARK ONLINE</span>
           </span>
-          <span className="text-zinc-500 hidden sm:inline">SKILLS: 0/20</span>
+          <span className="text-zinc-500 hidden sm:inline">LOCAL INFERENCE</span>
         </div>
         <div className="flex items-center gap-4">
-          <span className="text-zinc-500 hidden sm:inline">EXPERIMENTS: 0</span>
+          <span className="text-zinc-500 hidden sm:inline">QWEN 2.5 32B</span>
           <span className="text-zinc-600">UPTIME: <span className="text-zinc-400 tabular-nums">{uptime}</span></span>
         </div>
       </div>

@@ -4,12 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const NAV_ITEMS = [
-  { href: '/', label: 'signal' },
+  { href: '/', label: 'home' },
   { href: '/signals', label: 'feed' },
-  { href: '/experiments', label: 'experiments' },
-  { href: '/dissent', label: 'dissent' },
-  { href: '/death-watch', label: 'death-watch' },
+  { href: '/the-build', label: 'the build' },
   { href: '/about', label: 'about' },
+  { href: '/club', label: 'club ziggy' },
 ];
 
 const SOCIAL_LINKS = [
