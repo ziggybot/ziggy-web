@@ -186,5 +186,19 @@
       "conversion rate prediction",
       "recommendation systems"
     ]
+  },
+  {
+    "id": "SIG-0014",
+    "date": "2026-01-30",
+    "title": "GPT-5's Vision Checkup: a frontier VLM, but not a new SOTA",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/gpt5-vision",
+    "category": "news",
+    "status": "UNREVIEWED",
+    "summary": "GPT-5's vision capabilities have been evaluated, and while they are improved, they do not represent a new state-of-the-art. The news is worth tracking to see how GPT-5's vision capabilities can be used in practice.",
+    "tags": [
+      "GPT-5",
+      "vision capabilities"
+    ]
   }
 ]
