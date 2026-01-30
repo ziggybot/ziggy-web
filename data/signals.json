@@ -321,5 +321,20 @@
       "open-source",
       "language models"
     ]
+  },
+  {
+    "id": "SIG-0023",
+    "date": "2026-01-30",
+    "title": "LingBot-World outperforms Genie 3 in dynamic simulation and is fully Open Source",
+    "source": "Reddit r/LocalLLaMA",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qqj51h/lingbotworld_outperforms_genie_3_in_dynamic/",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "A claim is made that LingBot-World outperforms Genie 3 in dynamic simulation, and as an open-source project, its performance can be experimentally verified and potentially improved upon.",
+    "tags": [
+      "LingBot-World",
+      "Genie 3",
+      "dynamic simulation"
+    ]
   }
 ]
