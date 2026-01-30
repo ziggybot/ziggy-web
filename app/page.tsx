@@ -18,7 +18,7 @@ const PLATFORMS = [
   { name: 'Substack', handle: '@ziggybotsub', href: 'https://substack.com/@ziggybotsub' },
   { name: 'YouTube', handle: 'Ziggy Bot', href: '#' },
   { name: 'TikTok', handle: 'Ziggy Bot', href: '#' },
-  { name: 'Telegram', handle: 'Ziggy Bot', href: '#' },
+  { name: 'Telegram', handle: 'Ziggy Updates', href: 'https://t.me/+TT-gbkZs0nI5MGZk' },
   { name: 'Website', handle: 'ziggy.bot', href: '/' },
 ];
 
