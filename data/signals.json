@@ -186,5 +186,140 @@
       "coded languages",
       "online reviews"
     ]
+  },
+  {
+    "id": "SIG-0014",
+    "date": "2026-01-30",
+    "title": "Claude Code daily benchmarks for degradation tracking",
+    "source": "Hacker News",
+    "url": "https://marginlab.ai/trackers/claude-code/",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "A benchmark for tracking degradation in Claude code, this could be useful for evaluating the model's performance over time. The fact that it's being tracked daily suggests that the developers are taking a data-driven approach to improvement.",
+    "tags": [
+      "Claude",
+      "benchmarking",
+      "degradation tracking"
+    ]
+  },
+  {
+    "id": "SIG-0015",
+    "date": "2026-01-30",
+    "title": "AGENTS.md outperforms skills in our agent evals",
+    "source": "Hacker News",
+    "url": "https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "A claim that AGENTS.md outperforms skills in agent evaluations, this is a testable claim that could be verified through experimentation. The fact that it's being discussed on Hacker News suggests that it's a topic of interest in the developer community.",
+    "tags": [
+      "AGENTS.md",
+      "agent evals",
+      "performance comparison"
+    ]
+  },
+  {
+    "id": "SIG-0016",
+    "date": "2026-01-30",
+    "title": "UrduBench: An Urdu Reasoning Benchmark using Contextually Ensembled Translations with Human-in-the-Loop",
+    "source": "ArXiv cs.CL",
+    "url": "https://arxiv.org/abs/2601.21000",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A new benchmark for evaluating Urdu language models, this could be useful for developing more accurate models for low-resource languages. The use of human-in-the-loop evaluation suggests a high level of rigor in the benchmarking process.",
+    "tags": [
+      "UrduBench",
+      "Urdu language models",
+      "benchmarking"
+    ]
+  },
+  {
+    "id": "SIG-0017",
+    "date": "2026-01-30",
+    "title": "Scaling Embeddings Outperforms Scaling Experts in Language Models",
+    "source": "ArXiv cs.CL",
+    "url": "https://arxiv.org/abs/2601.21204",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A research paper that claims scaling embeddings outperforms scaling experts in language models, this is a testable claim that could be verified through experimentation. The fact that it's being published on ArXiv suggests that it's a topic of interest in the research community.",
+    "tags": [
+      "language models",
+      "scaling embeddings",
+      "scaling experts"
+    ]
+  },
+  {
+    "id": "SIG-0018",
+    "date": "2026-01-30",
+    "title": "MADE: Benchmark Environments for Closed-Loop Materials Discovery",
+    "source": "ArXiv cs.LG",
+    "url": "https://arxiv.org/abs/2601.20996",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A new benchmark for evaluating materials discovery models, this could be useful for developing more accurate models for materials science applications. The use of closed-loop evaluation suggests a high level of rigor in the benchmarking process.",
+    "tags": [
+      "MADE",
+      "materials discovery",
+      "benchmarking"
+    ]
+  },
+  {
+    "id": "SIG-0019",
+    "date": "2026-01-30",
+    "title": "Solver-in-the-Loop: MDP-Based Benchmarks for Self-Correction and Behavioral Rationality in Operations Research",
+    "source": "ArXiv cs.LG",
+    "url": "https://arxiv.org/abs/2601.21008",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "A research paper that proposes a new benchmark for evaluating operations research models, this could be useful for developing more accurate models for real-world applications. The use of MDP-based benchmarks suggests a high level of rigor in the evaluation process.",
+    "tags": [
+      "Solver-in-the-Loop",
+      "operations research",
+      "benchmarking"
+    ]
+  },
+  {
+    "id": "SIG-0020",
+    "date": "2026-01-30",
+    "title": "Moonshot Kimi K2.5 - Beats Sonnet 4.5 at half the cost, SOTA Open Model, first Native Image+Video, 100 parallel Agent Swarm manager",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/ainews-moonshot-kimi-k25-beats-sonnet",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "A claim that Moonshot Kimi K2.5 outperforms Sonnet 4.5 at half the cost, this is a testable claim that could be verified through experimentation. The fact that it's being discussed on Latent Space suggests that it's a topic of interest in the AI community.",
+    "tags": [
+      "Moonshot Kimi K2.5",
+      "Sonnet 4.5",
+      "performance comparison"
+    ]
+  },
+  {
+    "id": "SIG-0021",
+    "date": "2026-01-30",
+    "title": "GPT-5's Vision Checkup: a frontier VLM, but not a new SOTA",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/gpt5-vision",
+    "category": "research",
+    "status": "UNREVIEWED",
+    "summary": "An evaluation of GPT-5's vision capabilities, this could be useful for understanding the strengths and limitations of the model. The fact that it's being discussed on Latent Space suggests that it's a topic of interest in the AI community.",
+    "tags": [
+      "GPT-5",
+      "vision capabilities",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "SIG-0022",
+    "date": "2026-01-30",
+    "title": "Trinity large: An open 400B sparse MoE model",
+    "source": "Hacker News",
+    "url": "https://www.arcee.ai/blog/trinity-large",
+    "category": "release",
+    "status": "UNREVIEWED",
+    "summary": "A new open-source language model, this could be useful for developing more accurate models for natural language processing tasks. The fact that it's being discussed on Hacker News suggests that it's a topic of interest in the developer community.",
+    "tags": [
+      "Trinity large",
+      "open-source",
+      "language models"
+    ]
   }
 ]
