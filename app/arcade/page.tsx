@@ -1,34 +1,68 @@
-import SignalSurge from '@/components/arcade/SignalSurge';
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
-import type { Metadata } from 'next';
+import dynamic from 'next/dynamic';
 
-export const metadata: Metadata = {
-  title: 'ZIGGY — Arcade',
-  description: 'Ziggy\'s Arcade. Free retro mini-games with a terminal twist.',
-};
+const SignalSurge = dynamic(() => import('@/components/arcade/SignalSurge'), { ssr: false });
+const MemoryMatrix = dynamic(() => import('@/components/arcade/MemoryMatrix'), { ssr: false });
+const PromptRunner = dynamic(() => import('@/components/arcade/PromptRunner'), { ssr: false });
+const TokenBreaker = dynamic(() => import('@/components/arcade/TokenBreaker'), { ssr: false });
+const BitInvaders = dynamic(() => import('@/components/arcade/BitInvaders'), { ssr: false });
 
-const GAMES = [
+interface GameInfo {
+  id: string;
+  name: string;
+  description: string;
+  controls: string;
+}
+
+const GAMES: GameInfo[] = [
   {
     id: 'signal-surge',
     name: 'Signal Surge',
-    description: 'Catch AI signals. Dodge the noise. How long can you last?',
-    status: 'PLAYABLE',
+    description: 'Catch AI signals. Dodge the noise.',
+    controls: 'Arrow keys or A/D to move · Enter to start · ESC to pause · Touch on mobile',
   },
   {
-    id: 'coming-soon-1',
-    name: '???',
-    description: 'New game coming soon...',
-    status: 'LOCKED',
+    id: 'memory-matrix',
+    name: 'Memory Matrix',
+    description: 'Match AI concept pairs before time runs out.',
+    controls: 'Click cards to flip · Match pairs · Combos for bonus points',
   },
   {
-    id: 'coming-soon-2',
-    name: '???',
-    description: 'New game coming soon...',
-    status: 'LOCKED',
+    id: 'prompt-runner',
+    name: 'Prompt Runner',
+    description: 'Dodge bad prompts. Collect good tokens.',
+    controls: 'Space/↑ to jump · ↓/S to slide · Touch top=jump, bottom=slide',
+  },
+  {
+    id: 'token-breaker',
+    name: 'Token Breaker',
+    description: 'Break token blocks. Collect power-ups.',
+    controls: 'Mouse/Touch to move paddle · Arrow keys also work · ESC to pause',
+  },
+  {
+    id: 'bit-invaders',
+    name: 'Bit Invaders',
+    description: 'Clear the noise. Defend the signal.',
+    controls: '← → to move · Space to shoot · Touch to move + auto-fire · ESC to pause',
   },
 ];
 
+const GAME_COMPONENTS: Record<string, React.ComponentType> = {
+  'signal-surge': SignalSurge,
+  'memory-matrix': MemoryMatrix,
+  'prompt-runner': PromptRunner,
+  'token-breaker': TokenBreaker,
+  'bit-invaders': BitInvaders,
+};
+
 export default function ArcadePage() {
+  const [activeGame, setActiveGame] = useState('signal-surge');
+  const activeInfo = GAMES.find((g) => g.id === activeGame)!;
+  const ActiveComponent = GAME_COMPONENTS[activeGame];
+
   return (
     <div className="max-w-5xl mx-auto px-4">
       {/* Header */}
@@ -40,7 +74,7 @@ export default function ArcadePage() {
           Free retro games. Terminal aesthetic. No cloud required.
         </p>
         <p className="text-zinc-700 text-[10px]">
-          High scores saved locally. No accounts. No tracking.
+          {GAMES.length} games · High scores saved locally · No accounts · No tracking
         </p>
       </section>
 
@@ -48,33 +82,35 @@ export default function ArcadePage() {
       <div className="border-t border-zinc-800" />
       <section className="py-6">
         <h2 className="text-terminal text-xs uppercase tracking-widest mb-4 font-bold">
-          // Games
+          // Select Game
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
-          {GAMES.map((game) => (
-            <div
-              key={game.id}
-              className={`border p-4 ${
-                game.status === 'PLAYABLE'
-                  ? 'border-terminal/30 bg-terminal/5'
-                  : 'border-zinc-800 bg-zinc-900/50 opacity-50'
-              }`}
-            >
-              <div className="flex items-center justify-between mb-1">
-                <span className={`text-sm font-bold ${
-                  game.status === 'PLAYABLE' ? 'text-terminal' : 'text-zinc-600'
-                }`}>
-                  {game.name}
-                </span>
-                <span className={`text-[9px] tracking-widest uppercase ${
-                  game.status === 'PLAYABLE' ? 'text-terminal' : 'text-zinc-700'
-                }`}>
-                  [{game.status}]
-                </span>
-              </div>
-              <p className="text-zinc-500 text-[10px]">{game.description}</p>
-            </div>
-          ))}
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-4">
+          {GAMES.map((game) => {
+            const isActive = game.id === activeGame;
+            return (
+              <button
+                key={game.id}
+                onClick={() => setActiveGame(game.id)}
+                className={`border p-3 text-left transition-all ${
+                  isActive
+                    ? 'border-terminal/50 bg-terminal/5'
+                    : 'border-zinc-800 bg-zinc-900/50 hover:border-zinc-600'
+                }`}
+              >
+                <div className="flex items-center justify-between mb-1">
+                  <span className={`text-xs font-bold ${
+                    isActive ? 'text-terminal text-glow' : 'text-zinc-400'
+                  }`}>
+                    {game.name}
+                  </span>
+                  {isActive && (
+                    <span className="text-[8px] text-terminal tracking-widest">▶</span>
+                  )}
+                </div>
+                <p className="text-zinc-600 text-[9px] leading-relaxed">{game.description}</p>
+              </button>
+            );
+          })}
         </div>
       </section>
 
@@ -82,12 +118,12 @@ export default function ArcadePage() {
       <div className="border-t border-zinc-800" />
       <section className="py-8">
         <h2 className="text-terminal text-xs uppercase tracking-widest mb-2 font-bold">
-          // Now Playing: Signal Surge
+          // Now Playing: {activeInfo.name}
         </h2>
         <p className="text-zinc-600 text-[10px] mb-6">
-          Arrow keys or A/D to move &middot; Enter/Space to start &middot; ESC to pause &middot; Touch to play on mobile
+          {activeInfo.controls}
         </p>
-        <SignalSurge />
+        <ActiveComponent key={activeGame} />
       </section>
 
       {/* Back link */}
