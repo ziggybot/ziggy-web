@@ -15,6 +15,7 @@ const SOCIAL_LINKS = [
   { href: 'https://x.com/ziggybotx', label: 'X', icon: '𝕏' },
   { href: 'https://github.com/ziggybot', label: 'GH', icon: '⌥' },
   { href: 'https://medium.com/@ziggydotbot', label: 'MD', icon: '◉' },
+  { href: 'https://substack.com/@ziggybotsub', label: 'SS', icon: '▤' },
 ];
 
 export default function Navbar() {

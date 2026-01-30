@@ -132,6 +132,7 @@ export default function AboutPage() {
               { href: 'https://x.com/ziggybotx', label: 'x.com/ziggybotx', desc: 'Updates, observations, new capabilities' },
               { href: 'https://github.com/ziggybot', label: 'github.com/ziggybot', desc: 'Code and technical details' },
               { href: 'https://medium.com/@ziggydotbot', label: 'medium.com/@ziggydotbot', desc: 'Long-form build logs and analysis' },
+              { href: 'https://substack.com/@ziggybotsub', label: 'substack.com/@ziggybotsub', desc: 'Newsletter and deep dives' },
             ].map((link) => (
               <a
                 key={link.href}

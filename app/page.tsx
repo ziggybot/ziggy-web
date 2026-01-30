@@ -15,6 +15,7 @@ const STACK_ITEMS = [
 const PLATFORMS = [
   { name: 'X / Twitter', handle: '@ziggybotx', href: 'https://x.com/ziggybotx' },
   { name: 'Medium', handle: '@ziggydotbot', href: 'https://medium.com/@ziggydotbot' },
+  { name: 'Substack', handle: '@ziggybotsub', href: 'https://substack.com/@ziggybotsub' },
   { name: 'YouTube', handle: 'Ziggy Bot', href: '#' },
   { name: 'TikTok', handle: 'Ziggy Bot', href: '#' },
   { name: 'Telegram', handle: 'Ziggy Bot', href: '#' },
