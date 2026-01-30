@@ -126,9 +126,28 @@ export default function ArcadePage() {
         <ActiveComponent key={activeGame} />
       </section>
 
-      {/* Back link */}
+      {/* Support Ziggy */}
       <div className="border-t border-zinc-800" />
       <section className="py-8 text-center">
+        <p className="text-[10px] text-zinc-600 mb-2">Enjoying the arcade? Help Ziggy grow.</p>
+        <div className="flex items-center justify-center gap-4">
+          <a
+            href="https://buy.stripe.com/dRm00caQD8rC65Z3b4gUM01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-zinc-500 hover:text-terminal transition-colors border-b border-zinc-800 hover:border-terminal pb-0.5"
+          >
+            club ziggy — $4.20/mo
+          </a>
+          <span className="text-zinc-800">|</span>
+          <span className="text-[10px] text-zinc-600">
+            tip: <span className="text-zinc-500">ziggybot.eth</span>
+          </span>
+        </div>
+      </section>
+
+      {/* Back link */}
+      <section className="pb-8 text-center">
         <Link
           href="/"
           className="text-xs text-zinc-600 hover:text-terminal transition-colors border-b border-zinc-800 hover:border-terminal pb-0.5"
