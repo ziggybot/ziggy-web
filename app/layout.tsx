@@ -6,6 +6,7 @@ import StatusBar from '@/components/layout/StatusBar';
 import SignalTicker from '@/components/layout/SignalTicker';
 import Scanlines from '@/components/effects/Scanlines';
 import CommandPalette from '@/components/ui/CommandPalette';
+import KonamiCode from '@/components/effects/KonamiCode';
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body className={`${jetbrainsMono.variable} font-mono bg-background text-foreground crt-flicker`}>
         <Scanlines />
         <CommandPalette />
+        <KonamiCode />
         <Navbar />
         <SignalTicker />
         <main className="pt-[72px] pb-10 min-h-screen">

@@ -51,8 +51,8 @@ export default function HeartbeatPulse() {
           <span className="text-zinc-300">15m</span>
         </div>
         <div className="flex justify-between">
-          <span className="text-zinc-500">Active hours</span>
-          <span className="text-zinc-300">06:00–23:00</span>
+          <span className="text-zinc-500">Uptime</span>
+          <span className="text-zinc-300">24/7</span>
         </div>
         <div className="flex justify-between">
           <span className="text-zinc-500">Model</span>

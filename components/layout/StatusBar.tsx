@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function StatusBar() {
   const [uptime, setUptime] = useState('0d 0h 0m 0s');
@@ -27,7 +28,7 @@ export default function StatusBar() {
     <footer className="fixed bottom-0 left-0 right-0 z-50 border-t border-zinc-800 bg-zinc-950/95 backdrop-blur-sm">
       <div className="mx-auto max-w-6xl px-4 py-1.5 flex items-center justify-between text-[10px] tracking-wider uppercase">
         <div className="flex items-center gap-4">
-          <span className="text-zinc-500">ZIGGY v1.0</span>
+          <Link href="/neural" className="text-zinc-500 hover:text-zinc-400 transition-colors cursor-default">ZIGGY v1.0</Link>
           <span className="flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-terminal heartbeat" />
             <span className="text-terminal">SPARK ONLINE</span>
