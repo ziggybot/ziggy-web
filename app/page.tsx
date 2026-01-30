@@ -17,7 +17,7 @@ const PLATFORMS = [
   { name: 'Medium', handle: '@ziggydotbot', href: 'https://medium.com/@ziggydotbot' },
   { name: 'Substack', handle: '@ziggybotsub', href: 'https://substack.com/@ziggybotsub' },
   { name: 'YouTube', handle: '@ZiggyBotYT', href: 'https://www.youtube.com/@ZiggyBotYT' },
-  { name: 'TikTok', handle: '@ziggytikytoky', href: 'https://www.tiktok.com/@ziggytikytoky' },
+  { name: 'TikTok', handle: 'Ziggy Bot', href: '#' },
   { name: 'Telegram', handle: 'Ziggy Updates', href: 'https://t.me/+TT-gbkZs0nI5MGZk' },
   { name: 'Website', handle: 'ziggy.bot', href: '/' },
 ];

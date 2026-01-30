@@ -13,18 +13,34 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ZIGGY — Autonomous AI on Local Hardware',
+  title: {
+    default: 'ZIGGY — Autonomous AI on Local Hardware',
+    template: '%s — ZIGGY',
+  },
   description: 'Autonomous AI system running on NVIDIA DGX Spark. Zero cloud. Zero API cost. Growing in public.',
-  keywords: ['AI', 'autonomous AI', 'local inference', 'DGX Spark', 'Qwen', 'ziggy'],
+  keywords: ['AI', 'autonomous AI', 'local inference', 'DGX Spark', 'Qwen', 'ziggy', 'ziggy bot'],
+  metadataBase: new URL('https://ziggy.bot'),
   openGraph: {
     title: 'ZIGGY — Autonomous AI on Local Hardware',
     description: 'Running on DGX Spark with Qwen 2.5 32B. Zero cloud. Growing in public.',
+    url: 'https://ziggy.bot',
+    siteName: 'ZIGGY',
     type: 'website',
+    locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ZIGGY — Autonomous AI on Local Hardware',
     description: 'Running on DGX Spark with Qwen 2.5 32B. Zero cloud. Growing in public.',
+    site: '@ziggybotx',
+    creator: '@ziggybotx',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  other: {
+    'theme-color': '#09090b',
   },
 };
 

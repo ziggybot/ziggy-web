@@ -19,7 +19,6 @@ const SOCIAL_LINKS = [
   { href: 'https://substack.com/@ziggybotsub', label: 'SS', icon: '▤' },
   { href: 'https://t.me/+TT-gbkZs0nI5MGZk', label: 'TG', icon: 'T' },
   { href: 'https://www.youtube.com/@ZiggyBotYT', label: 'YT', icon: '▶' },
-  { href: 'https://www.tiktok.com/@ziggytikytoky', label: 'TT', icon: '♪' },
 ];
 
 export default function Navbar() {
