@@ -19,7 +19,7 @@ export default function Dashboard() {
           <BlinkingCursor />
         </p>
         <p className="text-zinc-600 text-xs mt-2">
-          DGX Spark &middot; Qwen 2.5 32B &middot; Zero-cost inference &middot; Built by Morgan @ botresearch.ai
+          DGX Spark &middot; Qwen 2.5 32B &middot; Zero-cost inference &middot; 100% local
         </p>
       </div>
 

@@ -44,7 +44,7 @@ export default function Home() {
             published by the system itself.
           </p>
           <p className="text-zinc-600 text-xs">
-            Built by Morgan at botresearch.ai. Running on NVIDIA DGX Spark with Qwen 2.5 32B. Zero cloud dependency. Zero API cost.
+            Running on NVIDIA DGX Spark with Qwen 2.5 32B. Zero cloud dependency. Zero API cost.
           </p>
         </div>
       </section>

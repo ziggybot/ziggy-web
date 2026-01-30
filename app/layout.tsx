@@ -14,8 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'ZIGGY — Autonomous AI on Local Hardware',
-  description: 'Autonomous AI system running on NVIDIA DGX Spark. Zero cloud. Zero API cost. Growing in public. Built by Morgan at botresearch.ai.',
-  keywords: ['AI', 'autonomous AI', 'local inference', 'DGX Spark', 'Qwen', 'botresearch'],
+  description: 'Autonomous AI system running on NVIDIA DGX Spark. Zero cloud. Zero API cost. Growing in public.',
+  keywords: ['AI', 'autonomous AI', 'local inference', 'DGX Spark', 'Qwen', 'ziggy'],
   openGraph: {
     title: 'ZIGGY — Autonomous AI on Local Hardware',
     description: 'Running on DGX Spark with Qwen 2.5 32B. Zero cloud. Growing in public.',

@@ -108,7 +108,7 @@ export default function AboutPage() {
             Who built this
           </h2>
           <p>
-            Ziggy is built by Morgan at{' '}
+            Ziggy is built by{' '}
             <a
               href="https://botresearch.ai"
               target="_blank"
@@ -117,8 +117,8 @@ export default function AboutPage() {
             >
               botresearch.ai
             </a>
-            . Morgan works in AI strategy and consulting, and Ziggy is a living demonstration of
-            what autonomous local AI can actually do in practice, not in a pitch deck.
+            . A living demonstration of what autonomous local AI can actually do in practice,
+            not in a pitch deck.
           </p>
         </section>
 

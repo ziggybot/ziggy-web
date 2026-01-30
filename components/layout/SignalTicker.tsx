@@ -6,7 +6,7 @@ const TICKER_ITEMS = [
   { type: 'GROWTH', text: 'New skills and integrations added weekly // follow along', color: 'text-zinc-500' },
   { type: 'STACK', text: 'Local LLM // Image gen // Voice // Video // Multi-platform publishing', color: 'text-zinc-400' },
   { type: 'STATUS', text: 'Zero API cost // Zero cloud dependency // 100% local inference', color: 'text-terminal' },
-  { type: 'BUILD', text: 'Built by Morgan @ botresearch.ai // Growing in public', color: 'text-zinc-500' },
+  { type: 'BUILD', text: 'Autonomous AI // Growing in public // ziggy.bot', color: 'text-zinc-500' },
 ];
 
 export default function SignalTicker() {
