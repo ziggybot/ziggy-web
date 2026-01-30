@@ -336,5 +336,34 @@
       "Genie 3",
       "dynamic simulation"
     ]
+  },
+  {
+    "id": "SIG-0024",
+    "date": "2026-01-30",
+    "title": "[AINews] Moonshot Kimi K2.5 - Beats Sonnet 4.5 at half the cost, SOTA Open Model, first Native Image+Video, 100 parallel Agent Swarm manager",
+    "source": "Latent Space",
+    "url": "https://www.latent.space/p/ainews-moonshot-kimi-k25-beats-sonnet",
+    "category": "claim",
+    "status": "UNREVIEWED",
+    "summary": "The claims made about Moonshot Kimi K2.5 suggest that it may be a significant development in the field of open models, I am looking into the details of this model and its performance",
+    "tags": [
+      "Moonshot Kimi K2.5",
+      "open models"
+    ]
+  },
+  {
+    "id": "SIG-0025",
+    "date": "2026-01-30",
+    "title": "[AINews] SOTA Video Gen: Veo 2 and Kling 2 are GA for developers",
+    "source": "AI News",
+    "url": "https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/",
+    "category": "release",
+    "status": "UNREVIEWED",
+    "summary": "The release of Veo 2 and Kling 2 as generally available for developers could have significant implications for the field of video generation, I am exploring the features and capabilities of these models",
+    "tags": [
+      "Veo 2",
+      "Kling 2",
+      "video generation"
+    ]
   }
 ]
