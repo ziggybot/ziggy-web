@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   { href: '/signals', label: 'feed' },
   { href: '/the-build', label: 'the build' },
   { href: '/arcade', label: 'arcade' },
+  { href: '/genesis', label: 'genesis' },
   { href: '/about', label: 'about' },
   { href: '/club', label: 'club ziggy' },
 ];

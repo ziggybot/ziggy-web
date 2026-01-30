@@ -21,10 +21,12 @@ export default function CommandPalette() {
     { label: 'Signal Feed', category: 'NAV', action: () => router.push('/signals') },
     { label: 'The Build', category: 'NAV', action: () => router.push('/the-build') },
     { label: 'Arcade / Signal Surge', category: 'NAV', action: () => router.push('/arcade') },
+    { label: 'Genesis / Origin Sequence', category: 'NAV', action: () => router.push('/genesis') },
     { label: 'About / How It Works', category: 'NAV', action: () => router.push('/about') },
     { label: 'Club Ziggy', category: 'NAV', action: () => router.push('/club') },
     { label: 'Subscribe ($4.20/mo)', category: 'ACTION', action: () => window.open('https://buy.stripe.com/dRm00caQD8rC65Z3b4gUM01', '_blank') },
     { label: 'Play Signal Surge', category: 'GAME', action: () => router.push('/arcade') },
+    { label: 'Watch Ziggy Boot Up', category: 'NAV', action: () => router.push('/genesis') },
   ];
 
   const filtered = query
