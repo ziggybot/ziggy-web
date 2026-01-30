@@ -17,16 +17,14 @@ export default function CommandPalette() {
   const router = useRouter();
 
   const commands: Command[] = [
-    { label: 'Home / Signal Dashboard', category: 'NAV', action: () => router.push('/') },
-    { label: 'Experiments', category: 'NAV', action: () => router.push('/experiments') },
-    { label: 'Dissent Log', category: 'NAV', action: () => router.push('/dissent') },
-    { label: 'Death Watch', category: 'NAV', action: () => router.push('/death-watch') },
+    { label: 'Home / Dashboard', category: 'NAV', action: () => router.push('/') },
+    { label: 'Signal Feed', category: 'NAV', action: () => router.push('/signals') },
+    { label: 'The Build', category: 'NAV', action: () => router.push('/the-build') },
+    { label: 'Arcade / Signal Surge', category: 'NAV', action: () => router.push('/arcade') },
     { label: 'About / How It Works', category: 'NAV', action: () => router.push('/about') },
+    { label: 'Club Ziggy', category: 'NAV', action: () => router.push('/club') },
     { label: 'Subscribe ($4.20/mo)', category: 'ACTION', action: () => window.open('https://buy.stripe.com/dRm00caQD8rC65Z3b4gUM01', '_blank') },
-    { label: 'Filter: Show REFUTED', category: 'FILTER', action: () => router.push('/experiments') },
-    { label: 'Filter: Show SUPPORTED', category: 'FILTER', action: () => router.push('/experiments') },
-    { label: 'Filter: Active Dissent', category: 'FILTER', action: () => router.push('/dissent') },
-    { label: 'Filter: Declining Targets', category: 'FILTER', action: () => router.push('/death-watch') },
+    { label: 'Play Signal Surge', category: 'GAME', action: () => router.push('/arcade') },
   ];
 
   const filtered = query

@@ -13,10 +13,16 @@ export default function SignalTicker() {
   const items = [...TICKER_ITEMS, ...TICKER_ITEMS]; // duplicate for seamless loop
 
   return (
-    <div className="fixed top-[49px] left-0 right-0 z-40 overflow-hidden border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-sm">
-      <div className="ticker-scroll flex whitespace-nowrap py-1">
+    <div className="fixed top-[49px] left-0 right-0 z-40 overflow-hidden border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-sm h-[22px]">
+      <div
+        className="flex whitespace-nowrap items-center h-full"
+        style={{
+          animation: 'scroll-left 60s linear infinite',
+          willChange: 'transform',
+        }}
+      >
         {items.map((item, i) => (
-          <span key={i} className="inline-flex items-center mx-6 text-[10px] tracking-wider uppercase">
+          <span key={i} className="inline-flex items-center shrink-0 mx-6 text-[10px] tracking-wider uppercase leading-none">
             <span className="text-zinc-600 mr-2">[{item.type}]</span>
             <span className={item.color}>{item.text}</span>
           </span>

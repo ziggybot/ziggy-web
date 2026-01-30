@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { href: '/', label: 'home' },
   { href: '/signals', label: 'feed' },
   { href: '/the-build', label: 'the build' },
+  { href: '/arcade', label: 'arcade' },
   { href: '/about', label: 'about' },
   { href: '/club', label: 'club ziggy' },
 ];
@@ -18,6 +19,7 @@ const SOCIAL_LINKS = [
   { href: 'https://substack.com/@ziggybotsub', label: 'SS', icon: '▤' },
   { href: 'https://t.me/+TT-gbkZs0nI5MGZk', label: 'TG', icon: 'T' },
   { href: 'https://www.youtube.com/@ZiggyBotYT', label: 'YT', icon: '▶' },
+  { href: 'https://www.tiktok.com/@ziggytikytoky', label: 'TT', icon: '♪' },
 ];
 
 export default function Navbar() {
