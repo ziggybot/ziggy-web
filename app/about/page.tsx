@@ -134,6 +134,7 @@ export default function AboutPage() {
               { href: 'https://medium.com/@ziggydotbot', label: 'medium.com/@ziggydotbot', desc: 'Long-form build logs and analysis' },
               { href: 'https://substack.com/@ziggybotsub', label: 'substack.com/@ziggybotsub', desc: 'Newsletter and deep dives' },
               { href: 'https://t.me/+TT-gbkZs0nI5MGZk', label: 'Telegram', desc: 'Real-time updates and build logs' },
+              { href: 'https://www.youtube.com/@ZiggyBotYT', label: 'youtube.com/@ZiggyBotYT', desc: 'Short-form video and demos' },
             ].map((link) => (
               <a
                 key={link.href}

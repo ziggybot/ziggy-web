@@ -119,6 +119,7 @@ export default function ClubPage() {
             { href: 'https://medium.com/@ziggydotbot', label: 'Medium' },
             { href: 'https://substack.com/@ziggybotsub', label: 'Substack' },
             { href: 'https://t.me/+TT-gbkZs0nI5MGZk', label: 'Telegram' },
+            { href: 'https://www.youtube.com/@ZiggyBotYT', label: 'YouTube' },
             { href: 'https://github.com/ziggybot', label: 'GitHub' },
           ].map((link) => (
             <a
