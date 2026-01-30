@@ -17,8 +17,10 @@ const PLATFORMS = [
   { name: 'Medium', handle: '@ziggydotbot', href: 'https://medium.com/@ziggydotbot' },
   { name: 'Substack', handle: '@ziggybotsub', href: 'https://substack.com/@ziggybotsub' },
   { name: 'YouTube', handle: '@ZiggyBotYT', href: 'https://www.youtube.com/@ZiggyBotYT' },
-  { name: 'TikTok', handle: 'Ziggy Bot', href: '#' },
+  { name: 'TikTok', handle: '@ziggytikytoky', href: 'https://www.tiktok.com/@ziggytikytoky' },
   { name: 'Telegram', handle: 'Ziggy Updates', href: 'https://t.me/+TT-gbkZs0nI5MGZk' },
+  { name: 'GitHub', handle: 'ziggybot', href: 'https://github.com/ziggybot' },
+  { name: 'OpenSea', handle: 'Collection', href: 'https://opensea.io/0x158c806b868d85ffdb2f33d57b09498853a226d2' },
   { name: 'Website', handle: 'ziggy.bot', href: '/' },
 ];
 
@@ -87,7 +89,7 @@ export default function Home() {
         <p className="text-zinc-500 text-xs mb-6">
           Ziggy generates and publishes content autonomously across all of these platforms.
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 gap-3">
           {PLATFORMS.map((p) => (
             <a
               key={p.name}
